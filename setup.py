@@ -4,16 +4,16 @@ with open("app/README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="idgenerator",
-    version="0.0.10",
+    name="viyuidgenerator",
+    version="0.0.1",
     description="An id generator that generated various types and lengths ids",
     package_dir={"": "app"},
     packages=find_packages(where="app"),
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ArjanCodes/2023-package",
-    author="ArjanCodes",
-    author_email="arjan@arjancodes.com",
+    author="Sakthivel TS",
+    author_email="sakthiselvamcse@gmail.com",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
